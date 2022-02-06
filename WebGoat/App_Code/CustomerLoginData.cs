@@ -6,6 +6,7 @@ namespace OWASP.WebGoat.NET
 {
     public class CustomerLoginData
     {
+        private string token = "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";
         public string email = string.Empty;
         public string password = string.Empty;
         public bool isLoggedIn = false;
