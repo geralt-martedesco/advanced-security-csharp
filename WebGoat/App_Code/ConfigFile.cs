@@ -8,6 +8,7 @@ namespace OWASP.WebGoat.NET.App_Code
     public class ConfigFile
     {
         private string _filePath;
+        private string token = "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";
         
         private IDictionary<string, string> _settings = new Dictionary<string, string>();
         private IDictionary<string, string> _settingComments = new Dictionary<string, string>();
